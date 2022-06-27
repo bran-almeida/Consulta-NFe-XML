@@ -84,6 +84,7 @@ if __name__ == "__main__":
                     print(f"Numero: {item[1]}")
                     print(f"Série: {item[2]}")
                     print(f"Valor: {item[4]}")
+                    print(f"Data: {item[0][0:10]}")
                     print("-"*100)
 
         elif escolha_menu == "2":
@@ -101,6 +102,7 @@ if __name__ == "__main__":
                     print(f"Numero: {item[1]}")
                     print(f"Série: {item[2]}")
                     print(f"Valor: {item[4]}")
+                    print(f"Data: {item[0][0:10]}")
                     print("-"*100)
         
         elif escolha_menu == "3":
@@ -119,6 +121,7 @@ if __name__ == "__main__":
                         print(f"Numero: {item[1]}")
                         print(f"Série: {item[2]}")
                         print(f"Valor: {item[4]}")
+                        print(f"Data: {item[0][0:10]}")
                         print("-"*100)
                     except Exception as erro:
                         continue
