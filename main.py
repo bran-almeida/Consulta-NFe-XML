@@ -34,7 +34,7 @@ def pesquisa(tag_xml):
         for arquivo in arquivos:
             dados_nfe = []
             if arquivo.endswith(".xml"):
-                with open(arquivo, "r") as Nfe:
+                with open(arquivo, "r", encoding="utf8") as Nfe:
                     for linha in Nfe:
                         linha = linha.strip('\n')
                         if tag_xml in linha:
